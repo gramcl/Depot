@@ -13,10 +13,10 @@
 	</div>
 	<div id="columns">
 		<div id="side">
-			<div id="cart">
+			<%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
 				<%= render @cart %>
-			</div>
-			
+			<% end %>
+
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="questions">Questions</a></li>
