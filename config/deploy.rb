@@ -29,7 +29,7 @@ set :normalize_asset_timestamps, false
 set :rails_env, :production
 set :default_stage, "production"
 
-set :linked_files, %w{/usr/local/share/ruby/depot/shared/config/database.yml}
+set :linked_files, %w{config/database.yml}
 
 namespace :deploy do
 
