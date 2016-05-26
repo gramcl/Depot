@@ -29,7 +29,7 @@ set :normalize_asset_timestamps, false
 set :rails_env, :production
 set :default_stage, "production"
 
-set :linked_files, %w{database.yml}
+set :linked_files, %w{config/database.yml}
 
 namespace :deploy do
 
