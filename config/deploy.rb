@@ -29,6 +29,8 @@ set :normalize_asset_timestamps, false
 set :rails_env, :production
 set :default_stage, "production"
 
+set :linked_files, %w{config/database.yml}
+
 namespace :deploy do
 
   desc "cause passenger to initiate a restart"
