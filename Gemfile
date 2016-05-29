@@ -31,7 +31,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 
 # Use Capistrano for deployment
- gem 'rvm-capistrano', group: :development
+ gem 'capistrano-rails', group: :development
  gem 'capistrano-linked-files'
 
 group :development, :test do
